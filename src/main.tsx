@@ -6,8 +6,10 @@ import Search from './Home/Componentes/Search.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Header />
-    <Search />  
+    <div className="container-complete">
+      <Header />
+      <Search />  
+    </div>
   </StrictMode>,
 )
  

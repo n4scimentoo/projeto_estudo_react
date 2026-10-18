@@ -8,3 +8,9 @@
 :root {
    --cor-fundo--principal:#F4FBFF;
 }
+.container-complete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

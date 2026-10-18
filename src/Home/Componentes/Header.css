@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px;
+    width: 62.5vw;
+    max-width: 1200px;
+    height: 12vh;
+}
+
+.logoCode {
+    width: 250px;
+    height: auto;
+}
+
+.btn-premium {
+    width:156px;
+    height:40px;
+    background-color: #0091DE;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-premium:hover {
+    transform: scale(1.05);
+}
